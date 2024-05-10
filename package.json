@@ -1,0 +1,33 @@
+{
+  "name": "eth-blob-uploader",
+  "version": "1.1.0",
+  "description": "eip-4844 blobs upload tool",
+  "main": "index.js",
+  "author": "ethstorage",
+  "license": "MIT",
+  "dependencies": {
+    "colors-cli": "^1.0.33",
+    "commander": "^11.1.0",
+    "ethers": "^6.9.1",
+    "ethstorage-sdk": "^1.2.7",
+    "minimist": "^1.2.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethstorage/eth-blob-uploader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ethstorage/eth-blob-uploader/issues"
+  },
+  "homepage": "https://github.com/ethstorage/eth-blob-uploader/main/",
+  "keywords": [
+    "EIP4844",
+    "eip-4844",
+    "Blobs",
+    "File",
+    "Upload"
+  ],
+  "bin": {
+    "eth-blob-uploader": "cli.js"
+  }
+}
